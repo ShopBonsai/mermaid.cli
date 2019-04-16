@@ -1,7 +1,7 @@
-cp ./node_modules/mermaid/dist/mermaid.min.js .
+cp ./node_modules/mermaid/dist/mermaid.min.js dist/
 
-mkdir -p fontawesome/css/
-cp ./node_modules/@fortawesome/fontawesome-free-webfonts/css/* fontawesome/css/
+mkdir -p dist/fontawesome/css/
+cp ./node_modules/@fortawesome/fontawesome-free-webfonts/css/* dist/fontawesome/css/
 
-mkdir -p fontawesome/webfonts/
-cp ./node_modules/@fortawesome/fontawesome-free-webfonts/webfonts/* fontawesome/webfonts/
+mkdir -p dist/fontawesome/webfonts/
+cp ./node_modules/@fortawesome/fontawesome-free-webfonts/webfonts/* dist/fontawesome/webfonts/
